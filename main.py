@@ -14,7 +14,7 @@ async def main():
 
     try:
         # Start polling (this will run continuously)
-        await racing.start_polling()
+        await racing._start_polling()
     except KeyboardInterrupt:
         print("\nStopping scraper...")
     except Exception as e:
